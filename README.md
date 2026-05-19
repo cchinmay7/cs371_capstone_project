@@ -1,10 +1,14 @@
 # CS 371 Capstone Project
 
-A full-stack CRUD web application for interacting with an **Iris dataset** stored in a **PostgreSQL** database. The project includes an **Express.js** backend API and a **React** frontend interface that allows users to create, read, update, and delete dataset records through a simple browser-based UI.
+## About
+
+This project is a full-stack CRUD web application built for a CS 371 capstone course. It lets users interact with an Iris dataset stored in PostgreSQL through a React frontend and an Express.js backend. The application supports creating, reading, updating, and deleting records, while also displaying summary statistics for different Iris species.
+
+A full-stack CRUD web application for interacting with an **Iris dataset** stored in a **PostgreSQL** database. The project includes an **Express.js** backend API and a **React** frontend interface.
 
 ## Overview
 
-This project demonstrates how to build a complete client-server application with a database-backed API. It provides a practical interface for managing Iris flower records and viewing aggregated statistics by species.
+This project demonstrates how to build a complete client-server application with a database-backed API. It provides a practical interface for managing Iris flower records and viewing aggregated statistics.
 
 Users can:
 - View summary statistics for Iris species
@@ -169,7 +173,7 @@ npm install
 npm start
 ```
 
-> Note: This repository snapshot includes `frontend/src`, but the exact frontend package configuration is not visible in the files reviewed. If a `package.json` exists in the frontend directory locally, use it to install and run the React app.
+> Note: This repository snapshot includes `frontend/src`, but the exact frontend package configuration is not visible in the files reviewed. If a `package.json` exists in the frontend directory locally, use it to run the frontend.
 
 ## Database Requirements
 
